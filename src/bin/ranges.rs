@@ -1,0 +1,12 @@
+fn main() {
+    let range = 1..=4;
+    let range2 = 1..4;
+    for num in 1..4 {
+        println!("{num}")
+    }
+
+    for char in 'a'..='f' {
+        println!("{char}")
+    }
+
+}
